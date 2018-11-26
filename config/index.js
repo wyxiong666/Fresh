@@ -49,12 +49,15 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
+<<<<<<< HEAD
     assetsPublicPath: '/Fresh/dist',
+=======
+    assetsPublicPath: '/Fresh/dist/',
+>>>>>>> 3e4f995b1d32661c59d1726c315f964c78829e26
 
     /**
      * Source Maps
      */
-
 
     productionSourceMap: true,
     // https://webpack.js.org/configuration/devtool/#production
