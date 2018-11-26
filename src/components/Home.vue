@@ -20,7 +20,6 @@
         </div>
       </transition-group>
     </div>
-
     <el-dialog
       title="提示"
       :visible.sync="dialogVisible"
@@ -74,10 +73,9 @@ export default {
     HomeHeader: HomeHeader,
   },
   //本地测试：http://localhost:8080/static/data/goods.json
-  //gitHub：/shoppingApp/static/data/github-goods.json
-  //阿里云：
+  //gitHub：/Fresh/static/data/github-goods.json
   mounted () {
-    this.axios.get('/shoppingApp/static/data/github-goods.json')
+    this.axios.get('/Fresh/static/data/github-goods.json')
     .then(res => {
       this.goods = [...res.data];
     })
