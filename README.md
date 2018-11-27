@@ -28,7 +28,7 @@
 
 电脑端查看
 
-https://oeeo.github.io/shoppingApp/dist/index.html
+
 
 ## Build Setup
 
